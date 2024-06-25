@@ -1,8 +1,8 @@
-public class elevenHomeTask {
+public class ElevenHomeTask {
     public static void main(String[] args) {
         //task1
         int taskYear = 2023;
-        printLeapCode(taskYear);
+        printLeapYearStatus(taskYear);
 
         //task2
         int clientOS = 1;
@@ -15,7 +15,7 @@ public class elevenHomeTask {
 
     }
 
-    public static void printLeapCode(int year) {
+    public static void printLeapYearStatus(int year) {
         if (year % 4 == 0 && year > 1584 && year % 100 != 0 || year % 400 == 0) {
             System.out.println(year + " год является високосным.");
         } else {
